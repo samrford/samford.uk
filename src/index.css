@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 38% 97%;
+    --foreground: 24 22% 14%;
+    --card: 36 50% 99%;
+    --muted: 33 24% 92%;
+    --muted-foreground: 25 14% 38%;
+    --border: 30 18% 86%;
+    --ring: 22 88% 52%;
+    --accent: 22 88% 52%;
+    --accent-foreground: 36 50% 98%;
+  }
+
+  .dark {
+    --background: 24 14% 8%;
+    --foreground: 36 30% 92%;
+    --card: 24 12% 11%;
+    --muted: 24 10% 14%;
+    --muted-foreground: 30 18% 64%;
+    --border: 24 10% 18%;
+    --ring: 32 92% 60%;
+    --accent: 32 92% 60%;
+    --accent-foreground: 24 14% 8%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    color-scheme: light dark;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-foreground;
+  }
+}
