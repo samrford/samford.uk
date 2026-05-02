@@ -18,7 +18,7 @@ export const projects: Project[] = [
       'Plan upcoming trips in a nice visual format, with day-by-day itineraries with all your stops mapped out, and catalog completed trips with checkpoints, journal entries, and photos.',
     tech: ['Next.js', 'Go', 'Postgres'],
     links: {
-      live: 'https://beyond-travel.com',  
+      live: 'https://beyond-travel.net',  
       github: 'https://github.com/samrford/beyond',
     },
   },
