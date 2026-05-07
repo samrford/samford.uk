@@ -40,7 +40,7 @@ export const projects: Project[] = [
     tagline: 'A space for your projects and ideas',
     description:
       'An app that gives you a space to define, iterate and expand on your projects and ideas, and serving as a hub for collaborating with AI.',
-    tech: ['Vike', 'React', 'Go', 'Postgres'],
+    tech: ['Remix', 'Go', 'Postgres'],
     comingSoon: true,
   },
   {
