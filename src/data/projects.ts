@@ -4,6 +4,7 @@ export type Project = {
   description: string
   tech: string[]
   comingSoon?: boolean
+  badge?: string
   links?: {
     live?: string
     github?: string
@@ -28,6 +29,18 @@ export const projects: Project[] = [
     description:
       'A budgeting app where the server only ever sees ciphertext. All the crypto happens in your browser — not in the cloud.',
     tech: ['Vite', 'React', 'Go', 'Postgres'],
+    badge: 'Early WIP',
+    links: {
+      live: 'https://tally.samford.uk',
+      github: 'https://github.com/samrford/tally',
+    },
+  },
+  {
+    name: 'Trove',
+    tagline: 'A space for your projects and ideas',
+    description:
+      'An app that gives you a space to define, iterate and expand on your projects and ideas, and serving as a hub for collaborating with AI.',
+    tech: ['Vike', 'React', 'Go', 'Postgres'],
     comingSoon: true,
   },
   {

@@ -9,6 +9,11 @@ export function ProjectCard({ project }: { project: Project }) {
         <h3 className="font-serif text-2xl font-medium tracking-tight text-foreground sm:text-3xl">
           {project.name}
         </h3>
+        {project.badge && (
+          <span className="inline-flex shrink-0 items-center rounded-full border border-accent/40 bg-accent/10 px-2.5 py-1 text-xs font-medium text-accent">
+            {project.badge}
+          </span>
+        )}
       </div>
       <p className="mt-1 text-sm font-medium text-accent">{project.tagline}</p>
       <p className="mt-4 text-base leading-relaxed text-muted-foreground">
