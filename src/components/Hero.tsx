@@ -34,7 +34,7 @@ export function Hero() {
       <p className="max-w-prose text-lg leading-relaxed text-muted-foreground sm:text-xl">
         I'm a Senior Software Engineer living in Brighton, UK. 🏖️ <br />
         I work at <a href="https://markup.ai" className="text-foreground hover:underline" target="_blank" rel="noopener noreferrer">Markup AI</a>. <br /><br />
-        I love to travel, check out some of my trip reports and upcoming adventures on my app, <a href="https://beyond-travel.net/u/samford" className="text-foreground hover:underline" target="_blank" rel="noopener noreferrer">Beyond!</a>. <br /><br />
+        I love to travel, check out some of my trip reports and upcoming adventures on my app, <a href="https://beyond-travel.net/u/samford" className="text-foreground hover:underline" target="_blank" rel="noopener noreferrer">Beyond!</a> <br /><br />
         Below you can find  a list of things I've built, or am currently working on.
       </p>
       <Socials />
