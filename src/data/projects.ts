@@ -28,7 +28,7 @@ export const projects: Project[] = [
     tagline: 'A space for your projects and ideas',
     description:
       'An app that gives you a space to define, iterate and expand on your projects and ideas, and serving as a hub for collaborating with AI.',
-    tech: ['Remix', 'Go', 'Postgres'],
+    tech: ['Svelte', 'Go', 'Postgres'],
     badge: 'Early WIP',
     links: {
       live: 'https://trove.samford.uk',
