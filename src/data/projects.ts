@@ -36,6 +36,16 @@ export const projects: Project[] = [
     },
   },
   {
+    name: 'google-photos-picker',
+    tagline: 'Drop-in Google Photos for Go backends and a framework-agnostic frontend library.',
+    description:
+      'A go library that handles Google Photos OAuth, picker sessions, photo download, and import workers. You bring the storage sink — S3, MinIO, local disk, whatever. Along with an acompanying frontend library that can be used with any framework, or even just vanilla JS.',
+    tech: ['Go', 'TypeScript', 'OAuth', 'Postgres'],
+    links: {
+      github: 'https://github.com/samrford/google-photos-picker',
+    },
+  },
+  {
     name: 'Tally',
     tagline: 'End-to-end encrypted personal finance.',
     description:
@@ -45,16 +55,6 @@ export const projects: Project[] = [
     links: {
       live: 'https://tally.samford.uk',
       github: 'https://github.com/samrford/tally',
-    },
-  },
-  {
-    name: 'google-photos-picker',
-    tagline: 'Drop-in Google Photos for Go services.',
-    description:
-      'A small library that handles Google Photos OAuth, picker sessions, photo download, and import workers. You bring the storage sink — S3, MinIO, local disk, whatever.',
-    tech: ['Go', 'OAuth', 'Postgres'],
-    links: {
-      github: 'https://github.com/samrford/google-photos-picker',
     },
   },
 ]
